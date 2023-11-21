@@ -87,7 +87,6 @@
     "@typescript-eslint/eslint-plugin": "^5.59.9",
     "@typescript-eslint/parser": "^5.59.9",
     "bundlewatch": "^0.3.3",
-    "cypress": "^10.11.0",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-cypress": "^2.13.3",
@@ -121,6 +120,9 @@
         "maxSize": "10 kB"
       }
     ]
+  },
+  "optionalDependencies": {
+    "cypress": "^10.11.0"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17 || ^18"
