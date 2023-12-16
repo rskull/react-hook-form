@@ -51,7 +51,8 @@
     "prepublishOnly": "pnpm install && pnpm lint:fix && pnpm type && pnpm test && pnpm build",
     "bundlewatch": "pnpm build:modern && bundlewatch",
     "start": "pnpm build:esm && pnpm --dir ./app install && pnpm --dir ./app run dev",
-    "csb:install": "npm i -g pnpm@8 && pnpm i"
+    "csb:install": "npm i -g pnpm@8 && pnpm i",
+    "postinstall": "npm run build"
   },
   "keywords": [
     "react",
